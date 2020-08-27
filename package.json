@@ -1,0 +1,26 @@
+{
+  "name": "compact.js",
+  "version": "1.0.0",
+  "description": "Make a compact server with this new easy-to-use npm package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efficiency-org/compact.js.git"
+  },
+  "keywords": [
+    "compact",
+    "node.js",
+    "node",
+    "javascript",
+    "server"
+  ],
+  "author": "Dean Summer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/efficiency-org/compact.js/issues"
+  },
+  "homepage": "https://github.com/efficiency-org/compact.js#readme"
+}
