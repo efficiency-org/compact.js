@@ -1,12 +1,3 @@
-module.exports = {
-	class Server {
-		constructor(function, port) {
-			try {
-				this.function = function;
-				this.port = port;
-
-				const http = require('http');
-				const server = http.createServer(this.function);
 
 				server.listen(this.port);
 
@@ -19,5 +10,27 @@ module.exports = {
 	},
 	function random() {
 		return Math.random();
+	},
+	class Process {
+		constructor() {
+			const process = require('process');
+
+			this.process = process;
+		}
+	},
+	class Require {
+		constructor(module) {
+			if (!module) {
+				process.exit(1);
+			}
+
+			const require = require('module');
+
+			if (!require) {
+				process.exit(1);
+			}
+
+			this.require = require;
+		}
 	}
-};
+}
