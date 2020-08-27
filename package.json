@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/efficiency-org/compact.js/issues"
   },
-  "homepage": "https://github.com/efficiency-org/compact.js#readme"
+  "homepage": "https://github.com/efficiency-org/compact.js#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
