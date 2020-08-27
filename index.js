@@ -16,5 +16,8 @@ module.exports = {
 				process.exit(1);
 			}
 		}
+	},
+	function random() {
+		return Math.random();
 	}
 }
